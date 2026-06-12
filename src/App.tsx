@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { RepositoryError } from './domain/repository-error'
+import { RepositoryError } from './error/repository-error'
 import type { Task, TasksRepository } from './domain/task'
 import { FetchTasksRepository } from './repositories/fetch-tasks-repository'
 import { GraphQLTasksRepository } from './repositories/graphql-tasks-repository'

@@ -1,10 +1,10 @@
 import { describe, expect, it } from 'vitest'
-import { RepositoryError } from '../domain/repository-error'
 import { createClientError } from '../test/client-error'
 import {
   mapHttpResponseToRepositoryError,
   mapToRepositoryError,
 } from './error-mapper'
+import { RepositoryError } from './repository-error'
 
 describe('mapToRepositoryError', () => {
   it('maps GraphQL ClientError fields to RepositoryError fields', () => {

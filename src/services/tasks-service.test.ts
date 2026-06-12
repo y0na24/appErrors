@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { RepositoryError } from '../domain/repository-error'
+import { RepositoryError } from '../error/repository-error'
 import type { Task, TasksRepository } from '../domain/task'
 import { TasksService } from './tasks-service'
 

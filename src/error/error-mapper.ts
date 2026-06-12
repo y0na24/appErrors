@@ -2,7 +2,7 @@ import { ClientError } from 'graphql-request'
 import {
   RepositoryError,
   type RepositoryErrorFields,
-} from '../domain/repository-error'
+} from './repository-error'
 
 export function mapToRepositoryError(error: unknown): RepositoryError {
   if (error instanceof RepositoryError) {

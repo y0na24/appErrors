@@ -1,4 +1,4 @@
-import { RepositoryError } from '../domain/repository-error'
+import { RepositoryError } from '../error/repository-error'
 import type { Task, TasksRepository } from '../domain/task'
 
 export class TasksService {

@@ -1,6 +1,6 @@
 import { gql, GraphQLClient } from 'graphql-request'
 import type { Task, TasksRepository } from '../domain/task'
-import { mapToRepositoryError } from './error-mapper'
+import { mapToRepositoryError } from '../error/error-mapper'
 
 type GraphQLTasksRepositoryOptions = {
   endpoint?: string

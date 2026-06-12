@@ -2,7 +2,7 @@ import type { Task, TasksRepository } from '../domain/task'
 import {
   mapHttpResponseToRepositoryError,
   mapToRepositoryError,
-} from './error-mapper'
+} from '../error/error-mapper'
 
 type FetchTasksRepositoryOptions = {
   endpoint?: string
